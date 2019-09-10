@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+        
+    
+    background-size:cover;
+    color : white;
+    font-family: Helvetica;
+    height :100vh;
+}
+
+header{
+    text-align: center;
+    background-color: #01796F;
+    opacity: 0.4;
+    color : white;
+    padding : 5px;
+    font-family: 'Times New Roman', Times, serif
+}
+
+header h1{
+   font-size : 20px;
+   margin-bottom: 30px;
+}
+
+header p{
+
+    font-size : 14px;
+}
+
+main{
+
+    background : url("file:///C:/Users/pc/Desktop/page%20web%20desing/futuristic-eye-detection-technology-concept-260nw-1111751291.jpg"no-repeat center);
+    min-height: calc(100vh - 99px - 0px);
+}
+
+.menu{
+    width: 75%;
+    height: 100px;
+    margin : 0px ;
+}
+
+
+
+
+
+.color{
+    color:white;
+}
+
+.menu ul{
+    margin : 0px;
+    padding : 0px;
+    list-style: none;
+
+}
+
+.menu ul li{
+    float : left;
+    width : 200px;
+    height : 40px;
+    background-color : #01796F;
+    line-height: 50px;
+    text-align: center;
+    font-size : 20px;
+    opacity: .8;
+}
+
+.menu ul li ul{
+
+    display : none;
+}
+
+
+.menu ul li a{
+    text-decoration: none;
+    color : white;
+    display : block;
+}
+
+.menu ul li:hover >ul {
+    display: block;
+    background-color: green;
+    opacity: 0.8;
+    
+}
+.menu ul li :hover{
+    background-color: green;
+    opacity: 0.8;
+    
+}
+
+
+.menu ul li ul li {
+    
+    position : relative;
+    
+}
+.menu ul li ul li ul {
+   
+    position : absolute;
+    left : 200px;
+    top : 0px;
+    
+}
+
+
+footer{
+    text-align: center;
+    background-color:#01796F;
+    opacity: 0.7;
+    color :white;
+    padding : 5px;
+    font-size: 10px;
+    
+}
+
